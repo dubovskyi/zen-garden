@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+}
+
+body {
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: arial;
+    background-image: url("http://beloweb.ru/wp-content/uploads/2014/05/1234567109.jpg");
+    display: flex;
+}
+header {
+    width: 800px;
+    height: 90px;
+    font-size: 20px;
+    background-image: url("http://flatonika.ru/wp-content/uploads/2014/09/Krasivie-foni-dlya-sayta-Background-09-e1409775195869.jpg");
+    background-size: cover;
+    color: #606d6c;
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    
+}
+
+header h2 {
+    display: flex;
+    align-items: flex-end;
+}
+#zen-summary {
+    font-size: 15px;
+    font: bold;
+    color: white;
+    float: left;
+    width:30%;
+    margin: 20 20 20 20px;
+}
+div p {
+    width: 50%;
+    color: white;
+    font-size: 15px;
+    font-family: cursive;
+    background-image: url("http://m-fox.com.ua/images/phocagallery/vektornye_izobrazheniya/fony__i__uzory/thumbs/phoca_thumb_l_fony_i_uzory1010.jpg");
+    margin: auto;
+}
+div h3 {
+    font-size: 20px;
+    font-family: fantasy;
+    color: #b8e0ef;
+    display: flex;
+    justify-content: center;
+}
+footer  {
+    background-color: #2a338e;
+    font-family: monospace;
+    font-size: 25px;
+    width: 100%;
+    height: 40px;
+    color: white;
+    opacity: 0.5;
+    display: flex;
+    justify-content: center;
+    order: 2;
+}
+.design-selection {
+    background-color: white;
+    font-size: 10px;
+    float: right;
+    width: 33%
+}
+.design-archives {
+    background-color: white;
+    font-size: 10px;
+    float: left;
+    width: 33%;
+}
+.zen-resources {
+    background-color: white;
+    font-size: 10px;
+    
+    
+}
+div nav {
+    display: flex;
+    flex-direction: row;
+    order: 1;
+    
+}
+
+@media screen and (max-width: 500px) {
+    
+}
+
